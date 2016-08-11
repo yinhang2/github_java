@@ -3,6 +3,7 @@ package august_eleven;
 public class Person {
 	private String name;
 	private int age;
+	static String contry = "À¼ÖÝ";
 	public Person(String name,int age){
 		this.setName(name);
 		this.setAge(age);
