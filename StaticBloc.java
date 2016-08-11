@@ -1,8 +1,14 @@
 package august_eleven;
 
 public class StaticBloc {
-	static{
+	public static StaticBloc instance = new StaticBloc();
+	private StaticBloc(){
+		
+	}
+	public void print(){
 		System.out.println("hello world!");
-		System.exit(1);
+	}
+	public static StaticBloc getInstance() {
+		return instance;
 	}
 }
