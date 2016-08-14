@@ -16,6 +16,5 @@ public class Worker extends Person{
 	public String getContent() {
 		// TODO Auto-generated method stub
 		return this.getName()+","+this.getAge()+","+this.salary;
-	}
-	
+	}	
 }
